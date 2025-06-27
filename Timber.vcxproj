@@ -143,18 +143,24 @@
     <ClInclude Include="Framework\ResourceMgr.h" />
     <ClInclude Include="Framework\Singleton.h" />
     <ClInclude Include="Framework\SpriteGo.h" />
+    <ClInclude Include="Scene.h" />
+    <ClInclude Include="SceneGame.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="Framework\Utils.h" />
+    <ClInclude Include="TextGo.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Framework\GameObject.cpp" />
     <ClCompile Include="Framework\InputMgr.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Framework\SpriteGo.cpp" />
+    <ClCompile Include="Scene.cpp" />
+    <ClCompile Include="SceneGame.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
     </ClCompile>
     <ClCompile Include="Framework\Utils.cpp" />
+    <ClCompile Include="TextGo.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

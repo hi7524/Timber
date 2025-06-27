@@ -2,5 +2,8 @@ C:\KHI\Timber\Framework\GameObject.cpp;C:\KHI\Timber\Timber\x64\Debug\GameObject
 C:\KHI\Timber\Framework\InputMgr.cpp;C:\KHI\Timber\Timber\x64\Debug\InputMgr.obj
 C:\KHI\Timber\main.cpp;C:\KHI\Timber\Timber\x64\Debug\main.obj
 C:\KHI\Timber\Framework\SpriteGo.cpp;C:\KHI\Timber\Timber\x64\Debug\SpriteGo.obj
+C:\KHI\Timber\Scene.cpp;C:\KHI\Timber\Timber\x64\Debug\Scene.obj
+C:\KHI\Timber\SceneGame.cpp;C:\KHI\Timber\Timber\x64\Debug\SceneGame.obj
 C:\KHI\Timber\stdafx.cpp;C:\KHI\Timber\Timber\x64\Debug\stdafx.obj
 C:\KHI\Timber\Framework\Utils.cpp;C:\KHI\Timber\Timber\x64\Debug\Utils.obj
+C:\KHI\Timber\TextGo.cpp;C:\KHI\Timber\Timber\x64\Debug\TextGo.obj

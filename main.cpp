@@ -1,10 +1,11 @@
 #include "stdafx.h"
-#include "SpriteGo.h"
+#include "SceneGame.h"
+
 
 
 int main()
 {
-    sf::RenderWindow window(sf::VideoMode(1280, 720), "TIMBER");
+    sf::RenderWindow window(sf::VideoMode(1920, 1080), "TIMBER");
 
     TEXTURE_MGR.Load({
         "graphics/player.png",
@@ -17,10 +18,14 @@ int main()
         "graphics/tree.png"
     });
 
-    SpriteGo spriteGo("graphics/player.png");
-    spriteGo.Init();
-    spriteGo.Reset();
-    spriteGo.SetOrigin(Origins::MC);
+    FONT_MGR.Load(
+        "fonts/KOMIKAP_.ttf"
+    );
+
+
+    SceneGame sceneGame;
+    sceneGame.Init();
+    sceneGame.Enter();
     
     while (window.isOpen()) 
     {
@@ -40,17 +45,17 @@ int main()
 
         //Update
         InputMgr::Update(0.0f);
-        spriteGo.Update(0.0f);
+        sceneGame.Update(0.0f);
 
         //Draw
         window.clear();
-
-        spriteGo.Draw(window);
+        sceneGame.Draw(window);
         
+
         window.display();
     }
 
-    spriteGo.Release();
+    sceneGame.Release();
 
     return 0;
 }
