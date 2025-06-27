@@ -34,7 +34,7 @@ int main()
 
         while (window.pollEvent(event)) 
         {
-            if (Sevent.type == sf::Event::Closed) 
+            if (event.type == sf::Event::Closed) 
             {
                 window.close();
             }
@@ -44,7 +44,7 @@ int main()
 
         //Update
         InputMgr::Update(0);
-
+        
         if (InputMgr::GetKeyDown(sf::Keyboard::A)) 
         {
             std::cout << "Key Down: A" << std::endl;
