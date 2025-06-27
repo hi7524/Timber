@@ -6,20 +6,21 @@ int main()
 {
     sf::RenderWindow window(sf::VideoMode(1280, 720), "TIMBER");
 
-    ResourceMgr<sf::Texture>::Instance().Load({
-            "graphics/player.png",
-            "graphics/axe.png",
-            "graphics/bee.png",
-            "graphics/branch.png",
-            "graphics/cloud.png",
-            "graphics/log.png",
-            "graphics/rip.png",
-            "graphics/tree.png"
+    TEXTURE_MGR.Load({
+        "graphics/player.png",
+        "graphics/axe.png",
+        "graphics/bee.png",
+        "graphics/branch.png",
+        "graphics/cloud.png",
+        "graphics/log.png",
+        "graphics/rip.png",
+        "graphics/tree.png"
     });
 
     SpriteGo spriteGo("graphics/player.png");
     spriteGo.Init();
     spriteGo.Reset();
+    spriteGo.SetOrigin(Origins::MC);
     
     while (window.isOpen()) 
     {

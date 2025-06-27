@@ -12,6 +12,8 @@ protected:
 	sf::Vector2f scale;
 	sf::Vector2f origin;
 
+	Origins originPreset;
+
 public:
 	GameObject(const std::string& name = "");
 	virtual ~GameObject();
@@ -34,7 +36,7 @@ public:
 
 	sf::Vector2f GetOrigin() const { return origin; }
 	virtual void SetOrigin(const sf::Vector2f& o) { origin = o; }
-
+	virtual void SetOrigin(Origins preset) { originPreset = preset; }
 
 	virtual void Init() = 0;    // 초기화
 	virtual void Release() = 0; // 삭제
