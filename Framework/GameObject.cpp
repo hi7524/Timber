@@ -2,27 +2,11 @@
 #include "GameObject.h"
 
 
-void GameObject::Init()
+GameObject::GameObject(const std::string& name)
+	:name(name)
 {
-
 }
 
-void GameObject::Release()
+GameObject::~GameObject()
 {
-
-}
-
-void GameObject::Reset()
-{
-
-}
-
-void GameObject::Update(float dt)
-{
-
-}
-
-void GameObject::Draw()
-{
-
 }

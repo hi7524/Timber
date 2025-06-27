@@ -1,6 +1,5 @@
 #include "stdafx.h"
-#include "InputMgr.h"
-#include "ResourceMgr.h"
+#include "SpriteGo.h"
 
 
 int main()
@@ -18,8 +17,9 @@ int main()
             "graphics/tree.png"
     });
 
-    sf::Sprite sprite;
-    sprite.setTexture(ResourceMgr<sf::Texture>::Instance().Get("graphics/player.png"));
+    SpriteGo spriteGo("graphics/player.png");
+    spriteGo.Init();
+    spriteGo.Reset();
     
     while (window.isOpen()) 
     {
@@ -38,28 +38,18 @@ int main()
         }
 
         //Update
-        InputMgr::Update(0);
-        
-        if (InputMgr::GetKeyDown(sf::Keyboard::A)) 
-        {
-            std::cout << "Key Down: A" << std::endl;
-        }
-        if (InputMgr::GetKey(sf::Keyboard::B)) 
-        {
-            std::cout << "Key Held: B" << std::endl;
-        }
-        if (InputMgr::GetKeyUp(sf::Keyboard::A)) 
-        {
-            std::cout << "Key Up: A" << std::endl;
-        }
+        InputMgr::Update(0.0f);
+        spriteGo.Update(0.0f);
 
         //Draw
         window.clear();
 
-        window.draw(sprite);
+        spriteGo.Draw(window);
         
         window.display();
     }
+
+    spriteGo.Release();
 
     return 0;
 }
