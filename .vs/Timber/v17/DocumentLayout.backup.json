@@ -3,32 +3,16 @@
   "WorkspaceRootPath": "C:\\KHI\\Timber\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A62B4766-6834-402D-994C-104B8AA964A4}|Timber.vcxproj|C:\\KHI\\Timber\\SceneDev2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A62B4766-6834-402D-994C-104B8AA964A4}|Timber.vcxproj|solutionrelative:SceneDev2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A62B4766-6834-402D-994C-104B8AA964A4}|Timber.vcxproj|C:\\KHI\\Timber\\SceneDev2.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A62B4766-6834-402D-994C-104B8AA964A4}|Timber.vcxproj|solutionrelative:SceneDev2.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A62B4766-6834-402D-994C-104B8AA964A4}|Timber.vcxproj|C:\\KHI\\Timber\\SceneDev1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A62B4766-6834-402D-994C-104B8AA964A4}|Timber.vcxproj|solutionrelative:SceneDev1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A62B4766-6834-402D-994C-104B8AA964A4}|Timber.vcxproj|C:\\KHI\\Timber\\SceneDev1.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A62B4766-6834-402D-994C-104B8AA964A4}|Timber.vcxproj|solutionrelative:SceneDev1.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A62B4766-6834-402D-994C-104B8AA964A4}|Timber.vcxproj|C:\\KHI\\Timber\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{A62B4766-6834-402D-994C-104B8AA964A4}|Timber.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A62B4766-6834-402D-994C-104B8AA964A4}|Timber.vcxproj|C:\\KHI\\Timber\\SceneMgr.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A62B4766-6834-402D-994C-104B8AA964A4}|Timber.vcxproj|solutionrelative:SceneMgr.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A62B4766-6834-402D-994C-104B8AA964A4}|Timber.vcxproj|C:\\KHI\\Timber\\Framework.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A62B4766-6834-402D-994C-104B8AA964A4}|Timber.vcxproj|solutionrelative:Framework.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A62B4766-6834-402D-994C-104B8AA964A4}|Timber.vcxproj|C:\\KHI\\Timber\\SceneMgr.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A62B4766-6834-402D-994C-104B8AA964A4}|Timber.vcxproj|solutionrelative:SceneMgr.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A62B4766-6834-402D-994C-104B8AA964A4}|Timber.vcxproj|C:\\KHI\\Timber\\Framework.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A62B4766-6834-402D-994C-104B8AA964A4}|Timber.vcxproj|solutionrelative:Framework.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,95 +22,43 @@
       "DocumentGroups": [
         {
           "DockedWidth": 219,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "SceneMgr.h",
-              "DocumentMoniker": "C:\\KHI\\Timber\\SceneMgr.h",
-              "RelativeDocumentMoniker": "SceneMgr.h",
-              "ToolTip": "C:\\KHI\\Timber\\SceneMgr.h",
-              "RelativeToolTip": "SceneMgr.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-06-30T01:53:41.886Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "SceneMgr.cpp",
-              "DocumentMoniker": "C:\\KHI\\Timber\\SceneMgr.cpp",
-              "RelativeDocumentMoniker": "SceneMgr.cpp",
-              "ToolTip": "C:\\KHI\\Timber\\SceneMgr.cpp",
-              "RelativeToolTip": "SceneMgr.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Framework.cpp",
+              "DocumentMoniker": "C:\\KHI\\Timber\\Framework.cpp",
+              "RelativeDocumentMoniker": "Framework.cpp",
+              "ToolTip": "C:\\KHI\\Timber\\Framework.cpp",
+              "RelativeToolTip": "Framework.cpp",
+              "ViewState": "AgIAABYAAAAAAAAAAAAiwC0AAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-06-30T01:53:41.428Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "SceneDev1.h",
-              "DocumentMoniker": "C:\\KHI\\Timber\\SceneDev1.h",
-              "RelativeDocumentMoniker": "SceneDev1.h",
-              "ToolTip": "C:\\KHI\\Timber\\SceneDev1.h",
-              "RelativeToolTip": "SceneDev1.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-06-30T01:53:39.216Z",
+              "WhenOpened": "2025-06-30T02:27:06.545Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "SceneDev1.cpp",
-              "DocumentMoniker": "C:\\KHI\\Timber\\SceneDev1.cpp",
-              "RelativeDocumentMoniker": "SceneDev1.cpp",
-              "ToolTip": "C:\\KHI\\Timber\\SceneDev1.cpp",
-              "RelativeToolTip": "SceneDev1.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-06-30T01:53:38.748Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "SceneDev2.h",
-              "DocumentMoniker": "C:\\KHI\\Timber\\SceneDev2.h",
-              "RelativeDocumentMoniker": "SceneDev2.h",
-              "ToolTip": "C:\\KHI\\Timber\\SceneDev2.h",
-              "RelativeToolTip": "SceneDev2.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAKAAAAAAAAAA==",
+              "Title": "Framework.h",
+              "DocumentMoniker": "C:\\KHI\\Timber\\Framework.h",
+              "RelativeDocumentMoniker": "Framework.h",
+              "ToolTip": "C:\\KHI\\Timber\\Framework.h",
+              "RelativeToolTip": "Framework.h",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAiwBQAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-06-30T01:53:40.15Z",
+              "WhenOpened": "2025-06-30T01:57:09.915Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "SceneDev2.cpp",
-              "DocumentMoniker": "C:\\KHI\\Timber\\SceneDev2.cpp",
-              "RelativeDocumentMoniker": "SceneDev2.cpp",
-              "ToolTip": "C:\\KHI\\Timber\\SceneDev2.cpp",
-              "RelativeToolTip": "SceneDev2.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-06-30T01:53:39.649Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\KHI\\Timber\\main.cpp",
               "RelativeDocumentMoniker": "main.cpp",
               "ToolTip": "C:\\KHI\\Timber\\main.cpp",
               "RelativeToolTip": "main.cpp",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-06-30T01:53:37.171Z",
               "EditorCaption": ""
