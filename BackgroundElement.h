@@ -16,7 +16,7 @@ public:
 	float speed = 0.0f;
 	sf::Vector2f direction;
 
-	void SetSide(int side);
+	void SetSide(Sides side);
 
 	void Reset() override;
 	void Update(float dt) override;

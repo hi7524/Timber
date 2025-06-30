@@ -8,20 +8,20 @@ BackgroundElement::BackgroundElement(const std::string& texId, const std::string
 {
 }
 
-void BackgroundElement::SetSide(int side)
+void BackgroundElement::SetSide(Sides side)
 {
 	sf::FloatRect bounds = FRAMEWORK.GetWindowBounds();
-	float scale = Utils::RandomValue();
+	float scale = Utils::RandomRange(0.5f, 1.0f);
 
 	switch (side)
 	{
-	case (int)Sides::Left:
+	case Sides::Left:
 		direction = { 1.0f, 0.0f };
-		SetScale({ scale * -1.0f, scale });
+		SetScale({ -scale, scale });
 		SetPosition({ -150.0f, Utils::RandomRange(100.0f, 500.0f) });
 		break;
 
-	case (int)Sides::Right:
+	case Sides::Right:
 		direction = { -1.0f, 0.0f };
 		SetScale({ scale, scale });
 		SetPosition({ bounds.width + 150.0f, Utils::RandomRange(100.0f, 500.0f) });
@@ -34,8 +34,8 @@ void BackgroundElement::Reset()
 	SpriteGo::Reset();
 
 	SetOrigin(Origins::MC);
-	SetSide(Utils::RandomRange(1, 3));
-	speed = Utils::RandomRange(2, 6) * 100;
+	SetSide((Sides)Utils::RandomRange(0, 2));
+	speed = Utils::RandomRange(2, 6) * 50;
 }
 
 void BackgroundElement::Update(float dt)

@@ -14,12 +14,12 @@ float Utils::RandomValue()
 
 int Utils::RandomRange(int min, int maxExclude)
 {
-	return rand() % maxExclude + min;
+	return rand() % maxExclude  + min;
 }
 
 float Utils::RandomRange(float min, float max)
 {
-	return ((float)rand() / RAND_MAX * max + min);
+	return min + ((float)rand() / RAND_MAX) * (max - min);
 }
 
 sf::Vector2f Utils::SetOrigin(sf::Sprite& obj, Origins preset)

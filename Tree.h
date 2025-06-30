@@ -9,6 +9,9 @@ protected:
 	std::vector<sf::Sprite> branches;
 	std::vector<Sides> branchesSide;
 
+	std::string texIdTree;
+	std::string texIdBranches;
+
 public:
 	Tree() = default;
 	~Tree() override = default;
