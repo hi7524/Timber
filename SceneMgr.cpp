@@ -7,6 +7,7 @@
 
 void SceneMgr::Init()
 {
+	//  순서 중요
 	scenes.push_back(new SceneGame());
 	scenes.push_back(new SceneDev1());
 	scenes.push_back(new SceneDev2());

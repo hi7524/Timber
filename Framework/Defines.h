@@ -18,3 +18,10 @@ enum class SceneIds
 	Dev2,
 	Count // 이런식으로 많이 사용
 };
+
+enum class Sides
+{
+	Left,
+	Right,
+	None
+};

@@ -3,16 +3,36 @@
   "WorkspaceRootPath": "C:\\KHI\\Timber\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A62B4766-6834-402D-994C-104B8AA964A4}|Timber.vcxproj|C:\\KHI\\Timber\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A62B4766-6834-402D-994C-104B8AA964A4}|Timber.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A62B4766-6834-402D-994C-104B8AA964A4}|Timber.vcxproj|C:\\KHI\\Timber\\BackgroundElement.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A62B4766-6834-402D-994C-104B8AA964A4}|Timber.vcxproj|solutionrelative:BackgroundElement.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A62B4766-6834-402D-994C-104B8AA964A4}|Timber.vcxproj|C:\\KHI\\Timber\\Framework.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A62B4766-6834-402D-994C-104B8AA964A4}|Timber.vcxproj|solutionrelative:Framework.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A62B4766-6834-402D-994C-104B8AA964A4}|Timber.vcxproj|C:\\KHI\\Timber\\Tree.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A62B4766-6834-402D-994C-104B8AA964A4}|Timber.vcxproj|solutionrelative:Tree.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A62B4766-6834-402D-994C-104B8AA964A4}|Timber.vcxproj|C:\\KHI\\Timber\\Framework.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A62B4766-6834-402D-994C-104B8AA964A4}|Timber.vcxproj|solutionrelative:Framework.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A62B4766-6834-402D-994C-104B8AA964A4}|Timber.vcxproj|C:\\KHI\\Timber\\BackgroundElement.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A62B4766-6834-402D-994C-104B8AA964A4}|Timber.vcxproj|solutionrelative:BackgroundElement.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A62B4766-6834-402D-994C-104B8AA964A4}|Timber.vcxproj|C:\\KHI\\Timber\\Framework\\Utils.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A62B4766-6834-402D-994C-104B8AA964A4}|Timber.vcxproj|solutionrelative:Framework\\Utils.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A62B4766-6834-402D-994C-104B8AA964A4}|Timber.vcxproj|C:\\KHI\\Timber\\Framework\\Defines.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A62B4766-6834-402D-994C-104B8AA964A4}|Timber.vcxproj|solutionrelative:Framework\\Defines.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A62B4766-6834-402D-994C-104B8AA964A4}|Timber.vcxproj|C:\\KHI\\Timber\\Framework\\SceneGame.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A62B4766-6834-402D-994C-104B8AA964A4}|Timber.vcxproj|solutionrelative:Framework\\SceneGame.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A62B4766-6834-402D-994C-104B8AA964A4}|Timber.vcxproj|C:\\KHI\\Timber\\Framework\\SceneGame.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A62B4766-6834-402D-994C-104B8AA964A4}|Timber.vcxproj|solutionrelative:Framework\\SceneGame.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A62B4766-6834-402D-994C-104B8AA964A4}|Timber.vcxproj|C:\\KHI\\Timber\\Framework\\Utils.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A62B4766-6834-402D-994C-104B8AA964A4}|Timber.vcxproj|solutionrelative:Framework\\Utils.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,45 +42,110 @@
       "DocumentGroups": [
         {
           "DockedWidth": 219,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Framework.cpp",
-              "DocumentMoniker": "C:\\KHI\\Timber\\Framework.cpp",
-              "RelativeDocumentMoniker": "Framework.cpp",
-              "ToolTip": "C:\\KHI\\Timber\\Framework.cpp",
-              "RelativeToolTip": "Framework.cpp",
-              "ViewState": "AgIAABYAAAAAAAAAAAAiwC0AAAAiAAAAAAAAAA==",
+              "Title": "Tree.h",
+              "DocumentMoniker": "C:\\KHI\\Timber\\Tree.h",
+              "RelativeDocumentMoniker": "Tree.h",
+              "ToolTip": "C:\\KHI\\Timber\\Tree.h",
+              "RelativeToolTip": "Tree.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-06-30T06:29:40.144Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Utils.h",
+              "DocumentMoniker": "C:\\KHI\\Timber\\Framework\\Utils.h",
+              "RelativeDocumentMoniker": "Framework\\Utils.h",
+              "ToolTip": "C:\\KHI\\Timber\\Framework\\Utils.h",
+              "RelativeToolTip": "Framework\\Utils.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-06-30T05:42:10.234Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Utils.cpp",
+              "DocumentMoniker": "C:\\KHI\\Timber\\Framework\\Utils.cpp",
+              "RelativeDocumentMoniker": "Framework\\Utils.cpp",
+              "ToolTip": "C:\\KHI\\Timber\\Framework\\Utils.cpp",
+              "RelativeToolTip": "Framework\\Utils.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-06-30T02:27:06.545Z",
+              "WhenOpened": "2025-06-30T05:42:09.534Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SceneGame.cpp",
+              "DocumentMoniker": "C:\\KHI\\Timber\\Framework\\SceneGame.cpp",
+              "RelativeDocumentMoniker": "Framework\\SceneGame.cpp",
+              "ToolTip": "C:\\KHI\\Timber\\Framework\\SceneGame.cpp",
+              "RelativeToolTip": "Framework\\SceneGame.cpp",
+              "ViewState": "AgIAABMAAAAAAAAAAAAAACAAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-06-30T05:33:18.152Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SceneGame.h",
+              "DocumentMoniker": "C:\\KHI\\Timber\\Framework\\SceneGame.h",
+              "RelativeDocumentMoniker": "Framework\\SceneGame.h",
+              "ToolTip": "C:\\KHI\\Timber\\Framework\\SceneGame.h",
+              "RelativeToolTip": "Framework\\SceneGame.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-06-30T05:33:17.208Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Defines.h",
+              "DocumentMoniker": "C:\\KHI\\Timber\\Framework\\Defines.h",
+              "RelativeDocumentMoniker": "Framework\\Defines.h",
+              "ToolTip": "C:\\KHI\\Timber\\Framework\\Defines.h",
+              "RelativeToolTip": "Framework\\Defines.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-06-30T05:22:09.82Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Framework.h",
-              "DocumentMoniker": "C:\\KHI\\Timber\\Framework.h",
-              "RelativeDocumentMoniker": "Framework.h",
-              "ToolTip": "C:\\KHI\\Timber\\Framework.h",
-              "RelativeToolTip": "Framework.h",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAiwBQAAAAWAAAAAAAAAA==",
+              "Title": "BackgroundElement.h",
+              "DocumentMoniker": "C:\\KHI\\Timber\\BackgroundElement.h",
+              "RelativeDocumentMoniker": "BackgroundElement.h",
+              "ToolTip": "C:\\KHI\\Timber\\BackgroundElement.h",
+              "RelativeToolTip": "BackgroundElement.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-06-30T01:57:09.915Z",
+              "WhenOpened": "2025-06-30T04:52:07.932Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "main.cpp",
-              "DocumentMoniker": "C:\\KHI\\Timber\\main.cpp",
-              "RelativeDocumentMoniker": "main.cpp",
-              "ToolTip": "C:\\KHI\\Timber\\main.cpp",
-              "RelativeToolTip": "main.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Title": "BackgroundElement.cpp",
+              "DocumentMoniker": "C:\\KHI\\Timber\\BackgroundElement.cpp",
+              "RelativeDocumentMoniker": "BackgroundElement.cpp",
+              "ToolTip": "C:\\KHI\\Timber\\BackgroundElement.cpp",
+              "RelativeToolTip": "BackgroundElement.cpp",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACQAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-06-30T01:53:37.171Z",
+              "WhenOpened": "2025-06-30T04:53:12.854Z",
               "EditorCaption": ""
             }
           ]

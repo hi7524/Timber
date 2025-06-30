@@ -12,7 +12,7 @@ protected:
 	sf::Vector2f scale;
 	sf::Vector2f origin;
 
-	Origins originPreset;
+	Origins originPreset = Origins::TL;
 
 public:
 	GameObject(const std::string& name = "");

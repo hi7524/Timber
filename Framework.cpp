@@ -6,6 +6,7 @@ void Framework::Init(int w, int h, const std::string& t)
 {
 	window.create(sf::VideoMode(w, h), t);
 
+    // 리소스 로드
 	TEXTURE_MGR.Load(texIds);
 	FONT_MGR.Load(fontIds);
 	SOUNDBUFFER_MGR.Load(soundIds);
@@ -13,7 +14,6 @@ void Framework::Init(int w, int h, const std::string& t)
 	// Manager 초기화
 	InputMgr::Init();
 	SCENE_MGR.Init();
-
 }
 
 void Framework::Do()
