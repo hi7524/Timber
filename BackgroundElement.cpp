@@ -1,6 +1,7 @@
 #include "stdafx.h"
 #include "BackgroundElement.h"
 #include "Utils.h"
+#include "Bee.h"
 
 
 BackgroundElement::BackgroundElement(const std::string& texId, const std::string& name)

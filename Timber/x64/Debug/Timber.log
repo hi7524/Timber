@@ -1,27 +1,6 @@
 ﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(524,5): warning MSB8004: Output 디렉터리가 슬래시로 끝나지 않습니다. Output 디렉터리의 적절한 평가를 허용하는 데 필요하므로 이 빌드 인스턴스에서 슬래시를 추가합니다.
-  stdafx.cpp
-  BackgroundElement.cpp
-C:\KHI\Timber\BackgroundElement.cpp(38,35): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  (소스 파일 '/BackgroundElement.cpp'을(를) 컴파일하는 중)
+  Bee.cpp
+C:\HI\SfmlProjects\Timber\Bee.cpp(37,35): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 '/Bee.cpp'을(를) 컴파일하는 중)
   
-  Framework.cpp
-  GameObject.cpp
-  InputMgr.cpp
-  Scene.cpp
-  SceneGame.cpp
-  SpriteGo.cpp
-  TextGo.cpp
-  Utils.cpp
-C:\KHI\Timber\Framework\Utils.cpp(7,12): warning C4244: '인수': 'time_t'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  (소스 파일 '/Framework/Utils.cpp'을(를) 컴파일하는 중)
-  
-  SceneDev1.cpp
-  SceneDev2.cpp
-  SceneMgr.cpp
-  Tree.cpp
-C:\KHI\Timber\Tree.cpp(17,13): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  (소스 파일 '/Tree.cpp'을(를) 컴파일하는 중)
-  
-  main.cpp
-  코드를 생성하고 있습니다...
-  Timber.vcxproj -> C:\KHI\Timber-bin\Timber-d.exe
+  Timber.vcxproj -> C:\HI\SfmlProjects\Timber-bin\Timber-d.exe
