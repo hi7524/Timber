@@ -68,6 +68,7 @@ public:
 		resources.erase(it);
 		return true;
 	}
+
 	void Unload(const std::vector<std::string>& str)
 	{
 		for (int i = 0; i < str.size(); i++)
@@ -75,6 +76,7 @@ public:
 			Unload(str[i]);
 		}
 	}
+
 	T& Get(const std::string& id)
 	{
 		// find 함수에 key를 넣으면 값을 찾을수 있음
@@ -94,5 +96,3 @@ T ResourceMgr<T>::Empty;
 #define TEXTURE_MGR (ResourceMgr<sf::Texture>::Instance())
 #define FONT_MGR (ResourceMgr<sf::Font>::Instance())
 #define SOUNDBUFFER_MGR (ResourceMgr<sf::SoundBuffer>::Instance())
-
-

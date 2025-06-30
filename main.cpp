@@ -1,6 +1,4 @@
 #include "stdafx.h"
-#include "SceneGame.h"
-
 
 
 int main()
@@ -22,11 +20,8 @@ int main()
         "fonts/KOMIKAP_.ttf"
     );
 
+    SCENE_MGR.Init();
 
-    SceneGame sceneGame;
-    sceneGame.Init();
-    sceneGame.Enter();
-    
     while (window.isOpen()) 
     {
         sf::Event event;
@@ -45,17 +40,14 @@ int main()
 
         //Update
         InputMgr::Update(0.0f);
-        sceneGame.Update(0.0f);
+        SCENE_MGR.Update(0.0f);
 
         //Draw
         window.clear();
-        sceneGame.Draw(window);
+        SCENE_MGR.Draw(window);
         
-
         window.display();
     }
-
-    sceneGame.Release();
 
     return 0;
 }
