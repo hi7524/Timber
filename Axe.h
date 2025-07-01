@@ -13,7 +13,6 @@ public:
 	Axe(const std::string& texId = "", const std::string& name = "");
 	
 	void Init() override;
-	//void SetOffsetPosition(const sf::Vector2f& pos);
 	void SetPlayerPos(const sf::Vector2f& pos);
 	void SetSide(Sides side);
 	void SetIsDraw(bool b);

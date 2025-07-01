@@ -8,10 +8,12 @@
 #include "Bee.h"
 #include "Player.h"
 #include "Axe.h"
+#include "UiHud.h"
 
 
 SceneGame::SceneGame() : Scene(SceneIds::Game)
 {
+
 }
 
 SceneGame::~SceneGame()
@@ -31,6 +33,8 @@ void SceneGame::Init()
     texIds.push_back("graphics/axe.png");
     texIds.push_back("graphics/rip.png");
 
+    fontIds.push_back("fonts/KOMIKAP_.ttf");
+
     // Objects
     AddGameObject(new SpriteGo("graphics/background.png"));
     
@@ -46,6 +50,7 @@ void SceneGame::Init()
     player = (Player*)AddGameObject(new Player());
     axe = (Axe*)AddGameObject(new Axe("graphics/axe.png"));
     
+    uiHud = (UiHud*)AddGameObject(new UiHud());
 
     Utils::Init();
     // 순회하며 init 함수 호출
@@ -59,6 +64,15 @@ void SceneGame::Enter()
     sf::Vector2f pos = tree->GetPosition();
     pos.y = 950.0f;
     player->SetPosition(pos);
+
+    score = 0;
+    uiHud->SetScore(score);
+
+    timer = timerMax;
+    uiHud->SetTimeBar(timer / timerMax);
+
+    uiHud->SetMessage("PRESS ENTER TO START");
+    uiHud->SetShowMessage(true);
 }
 
 void SceneGame::Exit()
@@ -69,16 +83,21 @@ void SceneGame::Exit()
 void SceneGame::Update(float dt)
 {
     Scene::Update(dt);
-    
+
     if (InputMgr::GetKeyDown(sf::Keyboard::Return))
     {
         isPlaying = !isPlaying;
         player->Reset();
+        uiHud->SetShowMessage(false);
+
+        timer = timerMax;
+        uiHud->SetTimeBar(timer / timerMax);
     }
 
     if (isPlaying)
     {
         FRAMEWORK.SetTimeScale(1.0f);
+        timer -= dt;
 
         if (InputMgr::GetKeyDown(sf::Keyboard::Left))
         {
@@ -87,6 +106,24 @@ void SceneGame::Update(float dt)
             player->SetSide(Sides::Left);
             axe->SetPlayerPos(player->GetPosition());
             axe->SetSide(Sides::Left);
+
+            if (tree->GetSide() == player->GetSide())
+            {
+                isPlaying = false;
+                player->Die();
+                tree->SetLastBranch();
+                axe->SetIsDraw(false);
+                score = 0;
+                uiHud->SetScore(score);
+
+                uiHud->SetMessage("PRESS ENTER TO RESTART");
+                uiHud->SetShowMessage(true);
+            }
+            else
+            {
+                score += 10;
+                uiHud->SetScore(score);
+            }
         }
         if (InputMgr::GetKeyDown(sf::Keyboard::Right))
         {
@@ -95,6 +132,24 @@ void SceneGame::Update(float dt)
             player->SetSide(Sides::Right);
             axe->SetPlayerPos(player->GetPosition());
             axe->SetSide(Sides::Right);
+
+            if (tree->GetSide() == player->GetSide())
+            {
+                isPlaying = false;
+                player->Die();
+                tree->SetLastBranch();
+                axe->SetIsDraw(false);
+                score = 0;
+                uiHud->SetScore(score);
+
+                uiHud->SetMessage("PRESS ENTER TO RESTART");
+                uiHud->SetShowMessage(true);
+            }
+            else
+            {
+                score += 10;
+                uiHud->SetScore(score);
+            }
         }
 
         if (InputMgr::GetKeyUp(sf::Keyboard::Left) || InputMgr::GetKeyUp(sf::Keyboard::Right))
@@ -109,9 +164,27 @@ void SceneGame::Update(float dt)
             tree->SetLastBranch();
             axe->SetIsDraw(false);
         }
+
+       
+
+        if (timer <= 0.0f)
+        {
+            FRAMEWORK.SetTimeScale(0.0f);
+            timer = 0.0f;
+            isPlaying = false;
+            player->Die();
+            tree->SetLastBranch();
+            axe->SetIsDraw(false);
+
+            uiHud->SetMessage("PRESS ENTER TO RESTART");
+            uiHud->SetShowMessage(false);
+        }
+        uiHud->SetTimeBar(timer / timerMax);
     }
     else
     {
         FRAMEWORK.SetTimeScale(0.0f);
+        uiHud->SetMessage("PRESS ENTER TO RESTART");
+        uiHud->SetShowMessage(true);
     }
 }

@@ -157,6 +157,7 @@
     <ClInclude Include="Framework\Utils.h" />
     <ClInclude Include="Framework\TextGo.h" />
     <ClInclude Include="Tree.h" />
+    <ClInclude Include="UiHud.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Axe.cpp" />
@@ -179,6 +180,7 @@
     <ClCompile Include="Framework\Utils.cpp" />
     <ClCompile Include="Framework\TextGo.cpp" />
     <ClCompile Include="Tree.cpp" />
+    <ClCompile Include="UiHud.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
