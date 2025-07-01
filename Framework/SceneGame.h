@@ -4,12 +4,15 @@
 // 전방선언
 class Player;
 class Tree; 
+class Axe;
 
 class SceneGame : public Scene
 {
 protected:
 	Player* player;
 	Tree* tree;
+	Axe* axe;
+	bool isPlaying = true;
 
 public:
 	SceneGame();

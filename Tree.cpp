@@ -13,6 +13,11 @@ void Tree::SetPosition(const sf::Vector2f& pos)
 	}
 }
 
+void Tree::SetLastBranch()
+{
+	branchesSide[branchesSide.size() - 1] = Sides::None;
+}
+
 Sides Tree::UpdateBranches()
 {
 	for (int i = branchesSide.size() - 1; i >  0; i--)

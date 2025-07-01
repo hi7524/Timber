@@ -36,9 +36,9 @@ public:
 		return sf::FloatRect(0.0f, 0.0f, size.x, size.y);
 	}
 
-
 	float GetTimeScale() const { return timeScale; }
 	void SetTimeScale(float scale) { timeScale = scale; }
+	void SetIsPlaying(bool b);
 
 	float GetTime() const { return time; }
 	float GetDeltaTime() const { return deltaTime; }

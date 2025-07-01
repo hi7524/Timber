@@ -17,6 +17,7 @@ public:
 	~Tree() override = default;
 
 	void SetPosition(const sf::Vector2f& pos) override;
+	void SetLastBranch();
 	Sides UpdateBranches();
 
 	Sides GetSide() const { return branchesSide[branchesSide.size() - 1]; }

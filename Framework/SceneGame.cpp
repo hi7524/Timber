@@ -7,6 +7,7 @@
 #include "Tree.h"
 #include "Bee.h"
 #include "Player.h"
+#include "Axe.h"
 
 
 SceneGame::SceneGame() : Scene(SceneIds::Game)
@@ -27,6 +28,8 @@ void SceneGame::Init()
     texIds.push_back("graphics/bee.png");
     texIds.push_back("graphics/branch.png");
     texIds.push_back("graphics/player.png");
+    texIds.push_back("graphics/axe.png");
+    texIds.push_back("graphics/rip.png");
 
     // Objects
     AddGameObject(new SpriteGo("graphics/background.png"));
@@ -39,8 +42,11 @@ void SceneGame::Init()
     auto elementBee = (Bee*)AddGameObject(new Bee("graphics/bee.png")); // 벌 (동적 할당)
 
    
-    tree = (Tree*)AddGameObject(new Tree()); // 계속 만들어져 있을 오브젝트
+    tree = (Tree*)AddGameObject(new Tree());
     player = (Player*)AddGameObject(new Player());
+    axe = (Axe*)AddGameObject(new Axe("graphics/axe.png"));
+    
+
     Utils::Init();
     // 순회하며 init 함수 호출
     Scene::Init();
@@ -62,22 +68,44 @@ void SceneGame::Exit()
 
 void SceneGame::Update(float dt)
 {
-    Scene::Update(dt);
-
-    if (InputMgr::GetKeyDown(sf::Keyboard::Left))
+    if (InputMgr::GetKeyDown(sf::Keyboard::Return))
     {
-        tree->UpdateBranches();
-        player->SetSide(Sides::Left);
+        isPlaying = !isPlaying;
+        player->Reset();
     }
-    if (InputMgr::GetKeyDown(sf::Keyboard::Right))
+    
+    if (isPlaying)
     {
-        tree->UpdateBranches();
-        player->SetSide(Sides::Right);
-    }
+        Scene::Update(dt);
 
-    if (tree->GetSide() == player->GetSide())
-    {
-        std::cout << "충돌" << std::endl;
+        if (InputMgr::GetKeyDown(sf::Keyboard::Left))
+        {
+            axe->SetIsDraw(true);
+            tree->UpdateBranches();
+            player->SetSide(Sides::Left);
+            axe->SetPlayerPos(player->GetPosition());
+            axe->SetSide(Sides::Left);
+        }
+        if (InputMgr::GetKeyDown(sf::Keyboard::Right))
+        {
+            axe->SetIsDraw(true);
+            tree->UpdateBranches();
+            player->SetSide(Sides::Right);
+            axe->SetPlayerPos(player->GetPosition());
+            axe->SetSide(Sides::Right);
+        }
+
+        if (InputMgr::GetKeyUp(sf::Keyboard::Left) || InputMgr::GetKeyUp(sf::Keyboard::Right))
+        {
+            axe->SetIsDraw(false);
+        }
+
+        if (tree->GetSide() == player->GetSide())
+        {
+            isPlaying = false;
+            player->Die();
+            tree->SetLastBranch();
+            axe->SetIsDraw(false);
+        }
     }
 }
-

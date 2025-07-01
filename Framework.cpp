@@ -20,14 +20,6 @@ void Framework::Do()
 {
     while (window.isOpen())
     {
-        // 게임 시간 관리
-        sf::Time dt = clock.restart();
-        realDeltaTime = deltaTime = dt.asSeconds();
-        deltaTime *= timeScale;
-        time += deltaTime;
-        realTime = realDeltaTime;
-
-
         InputMgr::Clear();
         sf::Event event;
 
@@ -41,15 +33,25 @@ void Framework::Do()
             InputMgr::UpdateEvent(event);
         }
 
-        //Update
-        InputMgr::Update(deltaTime);
-        SCENE_MGR.Update(deltaTime);
+        //while (isPlaying)
+        {
+            // 게임 시간 관리
+            sf::Time dt = clock.restart();
+            realDeltaTime = deltaTime = dt.asSeconds();
+            deltaTime *= timeScale;
+            time += deltaTime;
+            realTime = realDeltaTime;
 
-        //Draw
-        window.clear();
-        SCENE_MGR.Draw(window);
+            //Update
+            InputMgr::Update(deltaTime);
+            SCENE_MGR.Update(deltaTime);
 
-        window.display();
+            //Draw
+            window.clear();
+            SCENE_MGR.Draw(window);
+
+            window.display();
+        }
     }
 }
 

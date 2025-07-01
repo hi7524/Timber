@@ -20,9 +20,15 @@ void Player::SetPosition(const sf::Vector2f& pos)
 	sprite.setPosition(position + positions[(int)side]);
 }
 
+void Player::Die()
+{
+	sprite.setTexture(TEXTURE_MGR.Get(texIdRip));
+}
+
 void Player::Init()
 {
 	texId = "graphics/player.png";
+	texIdRip = "graphics/rip.png";
 
 	positions.resize(2);
 	positions[(int)Sides::Left] = { -300.0f, 1.0f };
