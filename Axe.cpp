@@ -5,17 +5,11 @@
 Axe::Axe(const std::string& texId, const std::string& name)
 	:SpriteGo(texId, name)
 {
-	
 }
 
 void Axe::Init()
 {
 	offset = { 90, -85 };
-}
-
-void Axe::SetOffsetPosition(const sf::Vector2f& pos)
-{
-	SetPosition({ pos.x + offset.x, pos.y + offset.y });
 }
 
 void Axe::SetPlayerPos(const sf::Vector2f& pos)
