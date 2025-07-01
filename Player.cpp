@@ -23,6 +23,7 @@ void Player::SetPosition(const sf::Vector2f& pos)
 void Player::Die()
 {
 	sprite.setTexture(TEXTURE_MGR.Get(texIdRip));
+	sprite.setScale({ 1.0f, 1.0f });
 }
 
 void Player::Init()

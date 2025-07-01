@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\KHI\\Timber\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A62B4766-6834-402D-994C-104B8AA964A4}|Timber.vcxproj|C:\\KHI\\Timber\\Framework\\SceneGame.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A62B4766-6834-402D-994C-104B8AA964A4}|Timber.vcxproj|solutionrelative:Framework\\SceneGame.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A62B4766-6834-402D-994C-104B8AA964A4}|Timber.vcxproj|C:\\KHI\\Timber\\Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{A62B4766-6834-402D-994C-104B8AA964A4}|Timber.vcxproj|solutionrelative:Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A62B4766-6834-402D-994C-104B8AA964A4}|Timber.vcxproj|C:\\KHI\\Timber\\Framework\\SceneGame.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A62B4766-6834-402D-994C-104B8AA964A4}|Timber.vcxproj|solutionrelative:Framework\\SceneGame.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A62B4766-6834-402D-994C-104B8AA964A4}|Timber.vcxproj|C:\\KHI\\Timber\\Axe.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -19,24 +19,8 @@
       "RelativeMoniker": "D:0:0:{A62B4766-6834-402D-994C-104B8AA964A4}|Timber.vcxproj|solutionrelative:Axe.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A62B4766-6834-402D-994C-104B8AA964A4}|Timber.vcxproj|C:\\KHI\\Timber\\Player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A62B4766-6834-402D-994C-104B8AA964A4}|Timber.vcxproj|solutionrelative:Player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A62B4766-6834-402D-994C-104B8AA964A4}|Timber.vcxproj|C:\\KHI\\Timber\\Framework\\SceneGame.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{A62B4766-6834-402D-994C-104B8AA964A4}|Timber.vcxproj|solutionrelative:Framework\\SceneGame.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A62B4766-6834-402D-994C-104B8AA964A4}|Timber.vcxproj|C:\\KHI\\Timber\\Framework\\SpriteGo.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A62B4766-6834-402D-994C-104B8AA964A4}|Timber.vcxproj|solutionrelative:Framework\\SpriteGo.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A62B4766-6834-402D-994C-104B8AA964A4}|Timber.vcxproj|C:\\KHI\\Timber\\Framework\\GameObject.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A62B4766-6834-402D-994C-104B8AA964A4}|Timber.vcxproj|solutionrelative:Framework\\GameObject.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A62B4766-6834-402D-994C-104B8AA964A4}|Timber.vcxproj|C:\\KHI\\Timber\\Framework.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A62B4766-6834-402D-994C-104B8AA964A4}|Timber.vcxproj|solutionrelative:Framework.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -45,20 +29,33 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 235,
-          "SelectedChildIndex": 6,
+          "DockedWidth": 253,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Axe.cpp",
-              "DocumentMoniker": "C:\\KHI\\Timber\\Axe.cpp",
-              "RelativeDocumentMoniker": "Axe.cpp",
-              "ToolTip": "C:\\KHI\\Timber\\Axe.cpp",
-              "RelativeToolTip": "Axe.cpp",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "SceneGame.h",
+              "DocumentMoniker": "C:\\KHI\\Timber\\Framework\\SceneGame.h",
+              "RelativeDocumentMoniker": "Framework\\SceneGame.h",
+              "ToolTip": "C:\\KHI\\Timber\\Framework\\SceneGame.h",
+              "RelativeToolTip": "Framework\\SceneGame.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-07-01T04:19:58.182Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SceneGame.cpp",
+              "DocumentMoniker": "C:\\KHI\\Timber\\Framework\\SceneGame.cpp",
+              "RelativeDocumentMoniker": "Framework\\SceneGame.cpp",
+              "ToolTip": "C:\\KHI\\Timber\\Framework\\SceneGame.cpp",
+              "RelativeToolTip": "Framework\\SceneGame.cpp",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAAAEIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-07-01T03:12:38.519Z",
+              "WhenOpened": "2025-07-01T04:19:57.69Z",
               "EditorCaption": ""
             },
             {
@@ -69,72 +66,20 @@
               "RelativeDocumentMoniker": "Axe.h",
               "ToolTip": "C:\\KHI\\Timber\\Axe.h",
               "RelativeToolTip": "Axe.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-07-01T03:12:37.887Z",
+              "WhenOpened": "2025-07-01T04:12:00.55Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Player.h",
-              "DocumentMoniker": "C:\\KHI\\Timber\\Player.h",
-              "RelativeDocumentMoniker": "Player.h",
-              "ToolTip": "C:\\KHI\\Timber\\Player.h",
-              "RelativeToolTip": "Player.h",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAACEAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-07-01T00:40:33.196Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "GameObject.h",
-              "DocumentMoniker": "C:\\KHI\\Timber\\Framework\\GameObject.h",
-              "RelativeDocumentMoniker": "Framework\\GameObject.h",
-              "ToolTip": "C:\\KHI\\Timber\\Framework\\GameObject.h",
-              "RelativeToolTip": "Framework\\GameObject.h",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-07-01T02:46:23.409Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "SpriteGo.h",
-              "DocumentMoniker": "C:\\KHI\\Timber\\Framework\\SpriteGo.h",
-              "RelativeDocumentMoniker": "Framework\\SpriteGo.h",
-              "ToolTip": "C:\\KHI\\Timber\\Framework\\SpriteGo.h",
-              "RelativeToolTip": "Framework\\SpriteGo.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-07-01T02:01:40.01Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "SceneGame.h",
-              "DocumentMoniker": "C:\\KHI\\Timber\\Framework\\SceneGame.h",
-              "RelativeDocumentMoniker": "Framework\\SceneGame.h",
-              "ToolTip": "C:\\KHI\\Timber\\Framework\\SceneGame.h",
-              "RelativeToolTip": "Framework\\SceneGame.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-07-01T01:01:11.385Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Player.cpp",
               "DocumentMoniker": "C:\\KHI\\Timber\\Player.cpp",
               "RelativeDocumentMoniker": "Player.cpp",
               "ToolTip": "C:\\KHI\\Timber\\Player.cpp",
               "RelativeToolTip": "Player.cpp",
-              "ViewState": "AgIAABEAAAAAAAAAAAAAwBkAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABkAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-07-01T00:40:54.027Z",
               "EditorCaption": ""
@@ -142,33 +87,20 @@
           ]
         },
         {
-          "DockedWidth": 221,
-          "SelectedChildIndex": 1,
+          "DockedWidth": 217,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Framework.cpp",
-              "DocumentMoniker": "C:\\KHI\\Timber\\Framework.cpp",
-              "RelativeDocumentMoniker": "Framework.cpp",
-              "ToolTip": "C:\\KHI\\Timber\\Framework.cpp",
-              "RelativeToolTip": "Framework.cpp",
-              "ViewState": "AgIAACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "Axe.cpp",
+              "DocumentMoniker": "C:\\KHI\\Timber\\Axe.cpp",
+              "RelativeDocumentMoniker": "Axe.cpp",
+              "ToolTip": "C:\\KHI\\Timber\\Axe.cpp",
+              "RelativeToolTip": "Axe.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-07-01T03:05:40.816Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "SceneGame.cpp",
-              "DocumentMoniker": "C:\\KHI\\Timber\\Framework\\SceneGame.cpp",
-              "RelativeDocumentMoniker": "Framework\\SceneGame.cpp",
-              "ToolTip": "C:\\KHI\\Timber\\Framework\\SceneGame.cpp",
-              "RelativeToolTip": "Framework\\SceneGame.cpp",
-              "ViewState": "AgIAAEIAAAAAAAAAAAAAAFIAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-07-01T01:01:19.446Z",
+              "WhenOpened": "2025-07-01T04:12:00.041Z",
               "EditorCaption": ""
             }
           ]

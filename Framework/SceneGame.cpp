@@ -68,15 +68,17 @@ void SceneGame::Exit()
 
 void SceneGame::Update(float dt)
 {
+    Scene::Update(dt);
+    
     if (InputMgr::GetKeyDown(sf::Keyboard::Return))
     {
         isPlaying = !isPlaying;
         player->Reset();
     }
-    
+
     if (isPlaying)
     {
-        Scene::Update(dt);
+        FRAMEWORK.SetTimeScale(1.0f);
 
         if (InputMgr::GetKeyDown(sf::Keyboard::Left))
         {
@@ -107,5 +109,9 @@ void SceneGame::Update(float dt)
             tree->SetLastBranch();
             axe->SetIsDraw(false);
         }
+    }
+    else
+    {
+        FRAMEWORK.SetTimeScale(0.0f);
     }
 }
