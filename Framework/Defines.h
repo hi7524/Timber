@@ -1,13 +1,13 @@
 #pragma once
 
-// Defines.h
+// 전역적으로 사용되는 정의들
 
 enum class Origins
 {
-	TL, TC, TR, // 0 1 2
-	ML, MC, MR, // 3 4 5
-	BL, BC, BR, // 6 7 8
-	Custom		// 9
+	TL, TC, TR,
+	ML, MC, MR,
+	BL, BC, BR,
+	Custom		
 };
 
 enum class SceneIds

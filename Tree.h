@@ -17,7 +17,9 @@ public:
 	~Tree() override = default;
 
 	void SetPosition(const sf::Vector2f& pos) override;
-	void UpdateBranches();
+	Sides UpdateBranches();
+
+	Sides GetSide() const { return branchesSide[branchesSide.size() - 1]; }
 
 	// GameObject을(를) 통해 상속됨
 	void Init() override;

@@ -4,6 +4,7 @@
 
 void Tree::SetPosition(const sf::Vector2f& pos)
 {
+	position = pos;
 	tree.setPosition(pos);
 
 	for (int i = 0; i < branches.size(); i++)
@@ -12,7 +13,7 @@ void Tree::SetPosition(const sf::Vector2f& pos)
 	}
 }
 
-void Tree::UpdateBranches()
+Sides Tree::UpdateBranches()
 {
 	for (int i = branchesSide.size() - 1; i >  0; i--)
 	{
@@ -31,6 +32,8 @@ void Tree::UpdateBranches()
 			branches[i].setScale(1.f, 1.f);
 		}
 	}
+
+	return branchesSide[0];
 }
 
 void Tree::Init()
@@ -78,10 +81,7 @@ void Tree::Reset()
 
 void Tree::Update(float dt)
 {
-	if (InputMgr::GetKeyDown(sf::Keyboard::Left) || InputMgr::GetKeyDown(sf::Keyboard::Right))
-	{
-		UpdateBranches();
-	}
+
 }
 
 void Tree::Draw(sf::RenderWindow& window)

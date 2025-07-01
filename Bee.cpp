@@ -39,10 +39,6 @@ void Bee::Reset()
 
 void Bee::Update(float dt)
 {
-	//auto pos = GetPosition();
-	//pos += direction * speed * dt;
-	//SetPosition(pos);
-
 	auto pos = GetPosition();
 	float rd = pos.x * 3.14f / 180;
 	pos += direction * speed * dt;

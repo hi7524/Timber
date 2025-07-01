@@ -7,6 +7,7 @@ Scene::Scene(SceneIds id)
 {
 }
 
+// Scene √ ±‚»≠
 void Scene::Init()
 {
 	for (auto obj : gameObjects)
